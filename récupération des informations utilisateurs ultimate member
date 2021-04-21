@@ -1,0 +1,5 @@
+<h3>Test informations ultimate member BDD</h3>
+<?php
+ echo "Votre nom est <strong>". um_user('display_name')."</strong><br />";
+ echo "Votre role est <strong>".um_user('role')."</strong>"; 
+?>
